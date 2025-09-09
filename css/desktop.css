@@ -1,1 +1,55 @@
 /* Desktop Styles */
+
+.burgerMenuContainer {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 4px;
+  border-bottom: none;
+}
+nav ul li a {
+  margin: 0 15px;
+  border: none;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+nav {
+  height: 80px;
+  flex: 1 1 80%;
+  display: flex;
+  justify-content: flex-end;
+  /* For mobile toggle */
+  overflow: auto;
+}
+
+nav{
+  /* For mobile toggle */
+  overflow: visible;
+  margin-top:40px;
+  height: 80px;
+}
+nav.desktop {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+main {
+  max-width: 1280px;
+  margin: 0 auto 8rem auto;
+}
+.headerContainer {
+  padding-top: 20px;
+}
